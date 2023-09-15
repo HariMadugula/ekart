@@ -2,18 +2,29 @@ package com.Utils;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
 
-public class Utils {
+import com.base.Testbase;
+
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.DataProvider;
+
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.DataProvider;
+
+
+
+public class Utils extends Testbase{
 	@DataProvider
 
-	public String[][] setdata() throws Throwable {
+	public String[][] setdata() throws IOException {
 
-		File file = new File("./src/main/java/com/testdata/Registration data.xlsx");
+		File file = new File("C:\\Users\\USER\\git\\Eccomerce_Project\\com.Equarz.Ecommerce\\src\\main\\java\\com\\testdata\\Login creadentials.xlsx");
 		FileInputStream stream = new FileInputStream(file);
 		XSSFWorkbook workbook = new XSSFWorkbook(stream);
 		XSSFSheet sheet = workbook.getSheetAt(0);

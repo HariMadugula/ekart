@@ -38,15 +38,11 @@
     <artifactId>commons-io</artifactId>
     <version>2.13.0</version>
 </dependency>
-
-
-
-  	<dependency>
-  		<groupId>com.hospiol</groupId>
-  		<artifactId>com.hospiol</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
   </dependencies>
+ </project>
+
+
+
+ 
   
 
-</project>
