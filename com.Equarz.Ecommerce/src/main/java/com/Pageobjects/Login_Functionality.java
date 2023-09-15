@@ -1,5 +1,6 @@
 package com.Pageobjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -26,7 +27,10 @@ public class Login_Functionality extends Testbase {
 	{
 		user.sendKeys(props.getProperty("username"));
 		pass.sendKeys(props.getProperty("password"));
+		JavascriptExecutor js=(JavascriptExecutor) driver;
+	  	  js.executeScript("window.scrollBy(0,200)","");
 		Thread.sleep(15000);
+		
 		signin.click();
 		
 		return new Homepage();
