@@ -1,39 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-15T18:04:18 IST" name="Default suite" finished-at="2023-09-15T18:05:09 IST" duration-ms="51243">
+  <suite started-at="2023-09-21T17:58:50 IST" name="Default suite" finished-at="2023-09-21T18:01:16 IST" duration-ms="145990">
     <groups>
     </groups>
-    <test started-at="2023-09-15T18:04:18 IST" name="Default test" finished-at="2023-09-15T18:05:09 IST" duration-ms="51243">
-      <class name="com.Equarz.Testcases.LoginTest">
-        <test-method is-config="true" signature="Initi()[pri:0, instance:com.Equarz.Testcases.LoginTest@4145bad8]" started-at="2023-09-15T18:04:18 IST" name="Initi" finished-at="2023-09-15T18:04:30 IST" duration-ms="11977" status="PASS">
+    <test started-at="2023-09-21T17:58:50 IST" name="Default test" finished-at="2023-09-21T18:01:16 IST" duration-ms="145990">
+      <class name="com.Equarz.Testcases.Wishlist_test">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.Equarz.Testcases.Wishlist_test@5ab956d7]" started-at="2023-09-21T17:58:50 IST" name="initialize" finished-at="2023-09-21T17:59:26 IST" duration-ms="35324" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Initi -->
-        <test-method signature="validatelogin()[pri:1, instance:com.Equarz.Testcases.LoginTest@4145bad8]" started-at="2023-09-15T18:04:30 IST" name="validatelogin" finished-at="2023-09-15T18:05:09 IST" duration-ms="39159" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- initialize -->
+        <test-method signature="bannerwishlist()[pri:0, instance:com.Equarz.Testcases.Wishlist_test@5ab956d7]" started-at="2023-09-21T17:59:26 IST" name="bannerwishlist" finished-at="2023-09-21T17:59:32 IST" duration-ms="6050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bannerwishlist -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.Equarz.Testcases.Wishlist_test@5ab956d7]" started-at="2023-09-21T17:59:32 IST" name="initialize" finished-at="2023-09-21T17:59:56 IST" duration-ms="24135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="categorywishlist()[pri:0, instance:com.Equarz.Testcases.Wishlist_test@5ab956d7]" started-at="2023-09-21T17:59:56 IST" name="categorywishlist" finished-at="2023-09-21T17:59:56 IST" duration-ms="199" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Sign in']"}
-  (Session info: MicrosoftEdge=116.0.1938.81)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[element not interactable: [object HTMLSpanElement] has no size and location
+  (Session info: MicrosoftEdge=117.0.2045.36)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [2cbdd92b85072453cc67eca2291d1d8c, findElement {using=xpath, value=//button[text()='Sign in']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50220}, msedge: {msedgedriverVersion: 116.0.1938.81 (bc0eb28b55bd..., userDataDir: C:\Users\USER\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50220/devtoo..., se:cdpVersion: 116.0.1938.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2cbdd92b85072453cc67eca2291d1d8c]]>
+Command: [446a37d7efbcd3f3acf3b7993d3d7521, actions {actions=[org.openqa.selenium.interactions.Sequence@29f85fe1]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.36, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53694}, msedge: {msedgedriverVersion: 117.0.2045.36 (7e3a0633c58a..., userDataDir: C:\Users\USER\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53694/devtoo..., se:cdpVersion: 117.0.2045.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 446a37d7efbcd3f3acf3b7993d3d7521]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Sign in']"}
-  (Session info: MicrosoftEdge=116.0.1938.81)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLSpanElement] has no size and location
+  (Session info: MicrosoftEdge=117.0.2045.36)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [2cbdd92b85072453cc67eca2291d1d8c, findElement {using=xpath, value=//button[text()='Sign in']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50220}, msedge: {msedgedriverVersion: 116.0.1938.81 (bc0eb28b55bd..., userDataDir: C:\Users\USER\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50220/devtoo..., se:cdpVersion: 116.0.1938.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2cbdd92b85072453cc67eca2291d1d8c
+Command: [446a37d7efbcd3f3acf3b7993d3d7521, actions {actions=[org.openqa.selenium.interactions.Sequence@29f85fe1]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.36, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53694}, msedge: {msedgedriverVersion: 117.0.2045.36 (7e3a0633c58a..., userDataDir: C:\Users\USER\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53694/devtoo..., se:cdpVersion: 117.0.2045.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 446a37d7efbcd3f3acf3b7993d3d7521
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -46,15 +52,10 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-at com.Pageobjects.Login_Functionality.Verifylogin(Login_Functionality.java:34)
-at com.Equarz.Testcases.LoginTest.validatelogin(LoginTest.java:40)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:605)
+at com.Pageobjects.Wishlist_functionality.categorylist(Wishlist_functionality.java:49)
+at com.Equarz.Testcases.Wishlist_test.categorywishlist(Wishlist_test.java:32)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -85,11 +86,27 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatelogin -->
-      </class> <!-- com.Equarz.Testcases.LoginTest -->
+        </test-method> <!-- categorywishlist -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.Equarz.Testcases.Wishlist_test@5ab956d7]" started-at="2023-09-21T17:59:56 IST" name="initialize" finished-at="2023-09-21T18:00:43 IST" duration-ms="47338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="homewishlist()[pri:0, instance:com.Equarz.Testcases.Wishlist_test@5ab956d7]" started-at="2023-09-21T18:00:43 IST" name="homewishlist" finished-at="2023-09-21T18:00:47 IST" duration-ms="3489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homewishlist -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.Equarz.Testcases.Wishlist_test@5ab956d7]" started-at="2023-09-21T18:00:47 IST" name="initialize" finished-at="2023-09-21T18:01:11 IST" duration-ms="23965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="searchwishlist()[pri:0, instance:com.Equarz.Testcases.Wishlist_test@5ab956d7]" started-at="2023-09-21T18:01:11 IST" name="searchwishlist" finished-at="2023-09-21T18:01:16 IST" duration-ms="5335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchwishlist -->
+      </class> <!-- com.Equarz.Testcases.Wishlist_test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

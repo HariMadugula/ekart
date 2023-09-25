@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.base.Testbase;
-import com.hospiol.pageobjects.Homepage;
+
 
 public class Registration_Functionality extends Testbase{
 //	public String first="";
