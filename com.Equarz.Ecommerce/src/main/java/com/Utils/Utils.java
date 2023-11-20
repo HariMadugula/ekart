@@ -47,4 +47,19 @@ public class Utils extends Testbase {
 		sel.selectByValue(text);
 
 	}
+	public static void robo() throws Throwable
+	{
+		Robot robo=new Robot();
+		robo.delay(3000);
+
+		StringSelection upload=new StringSelection("C:\\Users\\USER\\Downloads\\soap-bubbles-8253276_640.jpg");
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(upload, null);
+		robo.keyPress(KeyEvent.VK_CONTROL);
+		robo.keyPress(KeyEvent.VK_V);
+		robo.keyRelease(KeyEvent.VK_CONTROL);
+		robo.keyRelease(KeyEvent.VK_V);
+		robo.keyPress(KeyEvent.VK_ENTER);
+		robo.keyRelease(KeyEvent.VK_ENTER);
+	}
+
 }
